@@ -84,7 +84,7 @@ if (numeroutente > 0) {
 /*Stampa le potenze di 2 fino a 1000.*/
 
 var num = 0;
-for (var i = 0; i <= 1000; i++) {
+for (var i = 0; i < 10; i++) {
     num = Math.pow(i, 2);
     console.log(num);
 
